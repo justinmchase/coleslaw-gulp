@@ -1,5 +1,5 @@
 {
-  "name": "coleslaw-gulp",
+  "name": "gulp-coleslaw",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justinmchase/coleslaw-gulp.git"
+    "url": "git+https://github.com/justinmchase/gulp-coleslaw.git"
   },
   "author": "Justin Chase <justin.m.chase@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justinmchase/coleslaw-gulp/issues"
+    "url": "https://github.com/justinmchase/gulp-coleslaw/issues"
   },
-  "homepage": "https://github.com/justinmchase/coleslaw-gulp#readme"
+  "homepage": "https://github.com/justinmchase/gulp-coleslaw#readme",
+  "peerDependencies": {
+    "coleslaw": "^0.0.0"
+  },
+  "dependencies": {
+    "through2": "^2.0.1"
+  }
 }
